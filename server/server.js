@@ -35,6 +35,7 @@ app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
   res.send("Hello World");
+  res.send("This is thowfik");
 });
 
 // Create User Endpoint
